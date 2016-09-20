@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+</LinearLayout><!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/aviews/src/main/res/layout/fragment_dynamic_tab_title.xml --><!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/app/build/intermediates/exploded-aar/AirJoy/aviews/unspecified/res/layout/fragment_dynamic_tab_title.xml -->

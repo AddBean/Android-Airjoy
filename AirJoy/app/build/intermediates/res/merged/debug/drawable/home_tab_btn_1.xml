@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:drawable="@drawable/home_app2">
+    </item>
+    <item android:state_selected="true" android:drawable="@drawable/home_app1">
+    </item>
+</selector><!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/app/src/main/res/drawable/home_tab_btn_1.xml -->

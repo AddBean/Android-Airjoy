@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/color_blue" >
+
+        <TextView
+            android:id="@+id/tital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="远程鼠标"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/app_back_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/tital_back" />
+    </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" >
+         <com.android.airjoy.app.mouse.MouseTouch
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:focusable="true" />
+
+        
+
+         <LinearLayout
+             android:id="@+id/mouse_msg"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true"
+             android:orientation="vertical" >
+
+              <TextView
+                  android:id="@+id/textView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_centerVertical="true"
+                  android:text="@string/mouse_msg1"
+                  android:textColor="@color/mediumgray_1"
+                  android:textSize="17sp" />
+
+               <TextView
+                   android:id="@+id/textView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerHorizontal="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginTop="10dp"
+                   android:text="@string/mouse_msg2"
+                   android:textColor="@color/mediumgray_1"
+                   android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/mouse_msg3"
+                    android:textColor="@color/mediumgray_1"
+                    android:textSize="17sp" />
+
+         </LinearLayout>
+
+   </RelativeLayout>
+</LinearLayout>

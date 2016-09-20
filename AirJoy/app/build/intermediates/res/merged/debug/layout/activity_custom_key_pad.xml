@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grass_0"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"/>
+</LinearLayout><!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/app/src/main/res/layout/activity_custom_key_pad.xml -->

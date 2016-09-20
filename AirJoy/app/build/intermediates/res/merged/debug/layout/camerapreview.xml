@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:id="@+id/tital_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/color_blue">
+
+        <TextView
+            android:id="@+id/tital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="摄像头"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/app_back_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/tital_back" />
+
+        <ImageView
+            android:id="@+id/SwitchCameraButton"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/app_camera_switch" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/surface_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tital_layout" />
+
+    <LinearLayout
+        android:id="@+id/control_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tital_layout"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tools_bar_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/tools_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:text="分辨率"
+                android:textColor="@color/encode_view"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tools_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="16dp"
+                android:text=""
+                android:textColor="@color/color_blue"
+                android:textSize="14dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/list_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:visibility="gone"
+            android:background="@drawable/tools_bar_bg"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/transparent"
+                android:dividerHeight="0dp"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/app/src/main/res/layout/camerapreview.xml -->

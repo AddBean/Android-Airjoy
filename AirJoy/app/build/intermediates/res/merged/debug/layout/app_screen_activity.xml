@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tools_bar_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/tips_title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="26dp"
+                    android:gravity="center"
+                    android:text="连接中"
+                    android:textColor="@color/encode_view"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/loading_layout"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:layout_gravity="center"
+                android:background="@drawable/loading_bc_1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_anim"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/loading" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:alpha="0.7"
+                android:gravity="center"
+                android:text="正在连接中"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.android.airjoy.app.pcscreen.ScreenImagView
+        android:id="@+id/PcView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <com.android.airjoy.app.pcscreen.MouseTouch
+        android:id="@+id/touch_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/setting_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:alpha="0.7"
+        android:padding="4dp"
+        android:text="设置"
+        android:textColor="@color/color_blue"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:id="@+id/control_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tools_bar_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/tools_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:gravity="center"
+                android:text="鼠标模式"
+                android:textColor="@color/encode_view"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nomal_model"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:text="普通拖动"
+                    android:textColor="@color/color_blue"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/loc_model"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:text="点击定位"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/app/src/main/res/layout/app_screen_activity.xml -->

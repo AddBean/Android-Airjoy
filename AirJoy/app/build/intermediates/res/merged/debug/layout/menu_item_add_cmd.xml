@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:text=""
+        android:textColor="@color/color_gran_dark"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_gran_3" />
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:numColumns="3" />
+</LinearLayout><!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/app/src/main/res/layout/menu_item_add_cmd.xml -->

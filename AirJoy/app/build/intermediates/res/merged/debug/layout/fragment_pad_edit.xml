@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/background_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.android.airjoy.home.fragment.custom.keypad.ControlEditLayout
+        android:id="@+id/control_edit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+
+        <ImageView
+            android:id="@+id/add_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:alpha="100"
+            android:background="@drawable/edit_add_icon" />
+
+        <ImageView
+            android:id="@+id/save_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:layout_margin="16dp"
+            android:alpha="100"
+            android:background="@drawable/edit_save_icon" />
+
+        <ImageView
+            android:id="@+id/edit_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:layout_margin="16dp"
+            android:alpha="100"
+            android:background="@drawable/edit_edit_icon" />
+    </com.android.airjoy.home.fragment.custom.keypad.ControlEditLayout>
+
+
+</FrameLayout><!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/app/src/main/res/layout/fragment_pad_edit.xml -->

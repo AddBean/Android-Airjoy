@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/aviews/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="autils_color_blue">#ff0498FF</color>
+    <declare-styleable name="ACheckBox"><attr format="reference" name="image_unselected"/><attr format="reference" name="image_selected"/><attr format="boolean" name="select_state"/></declare-styleable>
+    <declare-styleable name="RoundImageView"><attr format="dimension" name="image_radius"/><attr name="image_type"><enum name="circle" value="0"/><enum name="round" value="1"/></attr></declare-styleable>
+    <!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/aviews/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">aviews</string>
+</resources>

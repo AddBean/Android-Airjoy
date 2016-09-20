@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/SendEmil"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="提建议"
+            android:background="@color/lightgray_0"
+            android:textColor="@color/color_blue"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/SendSug"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="关于"
+            android:background="@color/lightgray_0"
+            android:textColor="@color/color_blue"
+            android:textSize="18dp" />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/app/src/main/res/layout/app_help_list2.xml -->

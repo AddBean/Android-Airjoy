@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="400dp"
+    android:background="@color/lightgray_1"
+    android:orientation="horizontal">
+
+    <com.android.airjoy.app.pcfile.net.download.progress.WaveViewProgress
+        android:id="@+id/waveViewProgress"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></com.android.airjoy.app.pcfile.net.download.progress.WaveViewProgress>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/DownloadIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/fileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/color_gran_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/sizeInf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/color_gran" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/app/src/main/res/layout/app_pc_download_activity.xml -->

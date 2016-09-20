@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/airjoytoast_bg"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center|center_horizontal"
+        android:src="@drawable/ic_launcher" />
+  
+  <TextView
+      android:id="@+id/AirjoyToastText"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center|center_horizontal|clip_vertical"
+      android:gravity="center"
+      android:layout_marginLeft="10dp"
+      android:text="信息"
+      android:textColor="@color/white"
+      android:textSize="15sp"
+      android:textStyle="bold"
+      android:typeface="serif" />
+
+</LinearLayout>
+<!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/app/src/main/res/layout/airjoytoast.xml -->

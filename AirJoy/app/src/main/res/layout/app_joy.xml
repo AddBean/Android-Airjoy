@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/color_blue" >
+
+        <TextView
+            android:id="@+id/tital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="游戏手柄"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/app_back_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/tital_back" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/app_joy_bg" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" >
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/UpKey"
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/app_joy_up" />
+
+                    <ImageView
+                        android:id="@+id/DownKey"
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1.56"
+                        android:src="@drawable/app_joy_down" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" >
+
+                    <ImageView
+                        android:id="@+id/LeftKey"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/app_joy_right" />
+
+                    <ImageView
+                        android:id="@+id/RightKey"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/app_joy_left" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.13" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/LeftView"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/app_joy_l" />
+
+                <ImageView
+                    android:id="@+id/RightView"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/app_joy_r" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/GravitySwitch"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/app_joy_on"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="14dp" >
+
+                <ImageView
+                    android:id="@+id/Button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/app_joy_select" />
+
+                <ImageView
+                    android:id="@+id/Button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/app_joy_start" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.17" >
+
+            <ImageView
+                android:id="@+id/YButton"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignLeft="@+id/AButton"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="38dp"
+                android:src="@drawable/app_joy_y" />
+
+            <ImageView
+                android:id="@+id/AButton"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="38dp"
+                android:src="@drawable/app_joy_a" />
+
+            <ImageView
+                android:id="@+id/BButton"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/XButton"
+                android:src="@drawable/app_joy_b" />
+
+            <ImageView
+                android:id="@+id/XButton"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/app_joy_x" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

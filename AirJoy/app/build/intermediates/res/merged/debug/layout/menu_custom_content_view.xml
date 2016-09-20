@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/color_gran_3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="right|center_vertical"
+                android:text="内容编辑"
+                android:textColor="@color/color_black_2"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/edit_content"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="left|center_vertical"
+                android:hint="请输入内容"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/color_gran_3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="right|center_vertical"
+                android:text="字体大小"
+                android:layout_gravity="center"
+                android:textColor="@color/color_black_2"
+                android:textSize="14dp" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.android.airjoy.widget.SpringProgressView
+                    android:id="@+id/seekBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/color_gran_3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="right|center_vertical"
+                android:text="字体颜色"
+                android:textColor="@color/color_black_2"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.android.airjoy.widget.RoundLayout
+                    android:id="@+id/color_layout"
+                    android:layout_width="60dp"
+                    android:layout_height="22dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    attrs:childTextViewColor="@color/white"
+                    attrs:defaultColor="@color/color_black"
+                    attrs:isFill="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="颜色"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+                </com.android.airjoy.widget.RoundLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/color_gran_3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/text_left"
+                android:layout_width="60dp"
+                android:layout_height="22dp"
+                android:background="@drawable/text_selector_background"
+                android:gravity="center"
+                android:text="左对齐"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/text_mid"
+                android:layout_width="60dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:background="@drawable/text_selector_background"
+                android:gravity="center"
+                android:text="居中"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/text_right"
+                android:layout_width="60dp"
+                android:layout_height="22dp"
+                android:background="@drawable/text_selector_background"
+                android:gravity="center"
+                android:text="右对齐"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_color_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:orientation="vertical" />
+</FrameLayout><!-- From: file:/E:/AirjoyV4.0/Airjoy/android/AirJoy/app/src/main/res/layout/menu_custom_content_view.xml -->

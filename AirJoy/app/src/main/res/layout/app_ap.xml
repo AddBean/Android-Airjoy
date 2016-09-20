@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="48dp"
+		android:background="@color/color_blue" >
+
+		<TextView
+			android:id="@+id/tital"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true"
+			android:text="热点"
+			android:textColor="@color/white"
+			android:textSize="18sp" />
+
+		<ImageView
+			android:id="@+id/app_back_icon"
+			android:layout_width="18dp"
+			android:layout_height="18dp"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="15dp"
+			android:src="@drawable/tital_back" />
+	</RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txtViewHtml"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/AP_inf_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.01"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="37dp" >
+
+            <ImageView
+                android:id="@+id/Ap_image"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/app_wifi_icon" />
+
+				<TextView
+				    android:id="@+id/Ap_state"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_below="@+id/Ap_name"
+				    android:layout_centerHorizontal="true"
+				    android:layout_marginTop="5dp"
+				    android:text="状态"
+				    android:textColor="@color/white"
+				    android:textSize="16sp" />
+
+				<TextView
+				    android:id="@+id/Ap_name"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentTop="true"
+				    android:layout_centerHorizontal="true"
+				    android:layout_marginTop="76dp"
+				    android:text="AP名称"
+				    android:textColor="@color/white"
+				    android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/Ap_devlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+				<TextView
+            android:id="@+id/Ap_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="设备列表"
+            android:textColor="@color/grass_1"
+            android:textSize="17sp" />
+         <TextView
+            android:id="@+id/Ap_iplist"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:text=""
+            android:textColor="@color/grass_1"
+            android:textSize="14sp" />
+        </LinearLayout>
+
+        
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/Ap_set"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/app_wifi_set" />
+
+</LinearLayout>

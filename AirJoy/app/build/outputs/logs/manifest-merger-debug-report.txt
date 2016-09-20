@@ -1,0 +1,381 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:2:1-185:12
+	xmlns:android
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:5:5-32
+	android:versionCode
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:19.0.0] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.0\AndroidManifest.xml:18:5-42
+MERGED from [AirJoy:aviews:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\aviews\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:19.0.0] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.0\AndroidManifest.xml:18:5-42
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:19.0.0] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.0\AndroidManifest.xml:18:5-42
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:19.0.0] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.0\AndroidManifest.xml:18:5-42
+	android:targetSdkVersion
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:11:5-76
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:15:5-76
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:14:5-79
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:13:5-67
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:13:5-67
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:14:5-81
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:12:5-81
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.CAMERA
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:15:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:19:22-63
+uses-permission#android.permission.READ_FRAME_BUFFER
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:21:22-73
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:22:5-84
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:22:22-81
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:23:5-88
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:23:22-85
+uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:24:5-90
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:24:22-87
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:28:5-75
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:28:22-72
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:32:5-76
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:16:5-76
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:32:22-73
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:33:5-68
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:33:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:34:5-80
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:11:5-80
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:34:22-77
+application
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:43:5-183:19
+MERGED from [com.android.support:appcompat-v7:19.0.0] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.0\AndroidManifest.xml:19:5-20
+MERGED from [AirJoy:aviews:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\aviews\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:19.0.0] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.0\AndroidManifest.xml:19:5-20
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:18:5-22:19
+MERGED from [com.android.support:appcompat-v7:19.0.0] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.0\AndroidManifest.xml:19:5-20
+MERGED from [AirJoy:autils:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\autils\unspecified\AndroidManifest.xml:18:5-22:19
+MERGED from [com.android.support:appcompat-v7:19.0.0] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.0\AndroidManifest.xml:19:5-20
+	android:supportsRtl
+		ADDED from [AirJoy:aviews:unspecified] E:\AirjoyV4.0\Airjoy\android\AirJoy\app\build\intermediates\exploded-aar\AirJoy\aviews\unspecified\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:47:9-41
+	android:allowBackup
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:45:9-35
+	android:icon
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:46:9-45
+	android:theme
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:48:9-40
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:44:9-45
+activity#com.android.airjoy.app.camera.CameraPreview
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:49:9-51:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:51:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:50:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:49:19-59
+activity#com.android.airjoy.Zxing.CaptureActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:52:9-59
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:52:19-56
+activity#com.android.airjoy.Zxing.IndexActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:53:9-57
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:53:19-54
+activity#com.android.airjoy.app.joy.AppJoy
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:54:9-52
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:54:19-49
+activity#com.android.airjoy.app.makefun.Makefun
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:55:9-57:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:57:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:56:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:55:19-54
+activity#com.android.airjoy.app.cmd.SystemCmd
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:58:9-60:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:60:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:59:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:58:19-52
+activity#com.android.airjoy.app.mouse.MouseActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:61:9-63:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:63:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:62:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:61:19-58
+activity#net.youmi.android.AdBrowser
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:68:9-71:69
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:70:13-83
+	android:theme
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:71:13-66
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:69:13-55
+activity#com.android.airjoy.home.welcome.WelcomePage
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:72:9-75:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:75:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:74:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:73:13-53
+activity#com.android.airjoy.app.ap.AppAp
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:76:9-79:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:79:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:78:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:77:13-41
+activity#com.android.airjoy.app.help.AppHelp
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:80:9-83:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:83:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:82:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:81:13-45
+activity#com.android.airjoy.app.ppt.AppPpt
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:84:9-87:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:87:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:86:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:85:13-43
+activity#com.android.airjoy.app.help.InfDialog
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:88:9-91:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:91:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:90:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:89:13-47
+activity#com.android.airjoy.app.pcfile.AppPcActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:92:9-95:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:95:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:94:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:93:13-53
+activity#com.android.airjoy.app.pcfile.net.download.DownloadActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:96:9-100:57
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:99:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:98:13-63
+	android:theme
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:100:13-54
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:97:13-69
+activity#com.android.airjoy.app.phone.AppPhone
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:101:9-104:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:104:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:103:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:102:13-47
+activity#com.android.airjoy.app.pcscreen.DeskShowActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:105:9-108:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:108:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:107:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:106:13-58
+activity#com.android.airjoy.app.set.AppSet
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:109:9-112:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:112:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:111:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:110:13-43
+activity#com.android.airjoy.user.register.RegisterActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:113:9-116:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:116:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:115:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:114:13-59
+activity#com.android.airjoy.user.login.LoginActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:117:9-120:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:120:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:119:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:118:13-53
+activity#com.android.airjoy.home.fragment.custom.keypad.PadActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:121:9-124:52
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:124:13-49
+	android:configChanges
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:123:13-63
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:122:13-68
+activity#com.android.airjoy.home.HomeActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:125:9-134:20
+	android:screenOrientation
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:128:13-49
+	android:label
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:127:13-45
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:126:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:129:13-133:29
+action#android.intent.action.MAIN
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:130:17-69
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:130:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:132:17-77
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:132:27-74
+service#com.android.airjoy.app.phone.SnapService
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:136:9-76
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:136:18-73
+service#com.android.airjoy.core.service.MainService
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:137:9-139:38
+	android:enabled
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:139:13-35
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:138:13-53
+service#net.youmi.android.AdService
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:146:9-148:40
+	android:exported
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:148:13-37
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:147:13-55
+receiver#net.youmi.android.AdReceiver
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:150:9-158:20
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:150:19-62
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.VIEW
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:151:13-157:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:152:17-78
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:152:25-75
+data
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:154:17-50
+	android:scheme
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:154:23-47
+action#android.intent.action.VIEW
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:156:17-69
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:156:25-66
+receiver#com.android.airjoy.app.ap.WTBroadcast
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:159:9-165:20
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:159:19-53
+intent-filter#android.net.wifi.SCAN_RESULTS+android.net.wifi.STATE_CHANGE+android.net.wifi.WIFI_STATE_CHANGED
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:160:13-164:29
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:161:17-78
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:161:25-75
+action#android.net.wifi.SCAN_RESULTS
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:162:17-72
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:162:25-69
+action#android.net.wifi.STATE_CHANGE
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:163:17-72
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:163:25-69
+service#com.umeng.update.net.DownloadingService
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:167:9-169:53
+	android:process
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:169:13-50
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:168:13-67
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:171:9-173:75
+	android:theme
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:173:13-72
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:172:13-65
+meta-data#UMENG_APPKEY
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:175:9-177:56
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:176:13-40
+	android:value
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:177:13-53
+meta-data#UMENG_CHANNEL
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:178:9-180:41
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:179:13-41
+	android:value
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:180:13-38
+activity#com.android.airjoy.app.audio.AudioActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:181:9-61
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:181:19-58
+activity#com.android.airjoy.app.pccamera.PcCameraActivity
+ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:182:9-76
+	android:name
+		ADDED from E:\AirjoyV4.0\Airjoy\android\AirJoy\app\src\main\AndroidManifest.xml:182:19-64
